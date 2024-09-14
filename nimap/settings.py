@@ -76,11 +76,11 @@ WSGI_APPLICATION = 'nimap.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'django_db',
+        'NAME': 'nimap_database',
         'HOST': '127.0.0.1',
         'PORT': '3306',
         'USER': 'root',
-        'PASSWORD': '123456',
+        'PASSWORD': 'rohit2000#',
     }
 }
 
